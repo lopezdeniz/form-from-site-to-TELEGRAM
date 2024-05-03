@@ -1,7 +1,7 @@
 "use strict"
 //==========================================
-const TELEGRAM_BOT_TOKEN = '5790561769:AAFXHNyxsGSq2z7I0ds6HhSKaNisZ416m8U';
-const TELEGRAM_CHAT_ID = '-1002094926558';
+const TELEGRAM_BOT_TOKEN = '';
+const TELEGRAM_CHAT_ID = '';
 const API = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`
 
 
@@ -49,3 +49,6 @@ async function sendEmailTelegram(event) {
         formBtn.textContent = 'Отправить';
     }
 }
+
+5790561769:AAFXHNyxsGSq2z7I0ds6HhSKaNisZ416m8U
+-1002094926558
